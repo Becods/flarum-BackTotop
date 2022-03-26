@@ -1,0 +1,40 @@
+{
+    "name": "becod/flarum-backtotop",
+    "description": "A back to top button.",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.0.0"
+    },
+    "authors": [
+        {
+            "name": "BecodReyes",
+            "email": "i@muir.fun",
+            "role": "Creator"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/BecodReyes/flarum-BackToTop/issues",
+        "source": "https://github.com/BecodReyes/flarum-BackToTop",
+        "forum": "https://discuss.flarum.org"
+    },
+    "autoload": {
+        "psr-4": {
+            "Becod\\BackToTop\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "BackToTop",
+            "category": "features",
+            "icon": {
+                "name": "fas fa-arrow-up",
+                "backgroundColor": "#00ced1",
+                "color": "#ffffff"
+            }
+        }
+    }
+}    
